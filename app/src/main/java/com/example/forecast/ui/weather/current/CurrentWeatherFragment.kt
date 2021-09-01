@@ -134,19 +134,15 @@ class CurrentWeatherFragment : Fragment() {
         val currentTime = ZonedDateTime.now().hour
         Log.d("time",currentTime.toString())
         if(currentTime in 5..11){
-            Log.d("jutro",currentTime.toString())
-            timeOfDayImageView.setBackgroundResource(R.drawable.ic_day)
+            timeOfDayImageView.setBackgroundResource(R.drawable.ic_morning)
         }
         else if(currentTime in 12..16){
-            Log.d("podne",currentTime.toString())
             timeOfDayImageView.setBackgroundResource(R.drawable.ic_day)
         }
         else if (currentTime in 17..21){
-            Log.d("poslijepodne",currentTime.toString())
             timeOfDayImageView.setBackgroundResource(R.drawable.ic_sunset)
         }
         else {
-            Log.d("noc",currentTime.toString())
             timeOfDayImageView.setBackgroundResource(R.drawable.ic_night)
         }
     }
