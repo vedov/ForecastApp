@@ -10,10 +10,10 @@ import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
 import retrofit2.http.Query
 
-const val API_KEY = "7cbcf30649d9c5729d393f169534c76b"
+const val API_KEY = "APIKEY"
 
 //Current Weather
-//api.openweathermap.org/data/2.5/weather?q=Sarajevo&units=metric&appid=7cbcf30649d9c5729d393f169534c76b
+//api.openweathermap.org/data/2.5/weather?q=Sarajevo&units=metric&appid=APIKEY
 
 interface OpenWeatherApiService {
     @GET("weather")
