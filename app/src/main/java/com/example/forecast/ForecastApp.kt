@@ -1,6 +1,7 @@
 package com.example.forecast
 
 import android.app.Application
+import androidx.preference.PreferenceManager
 import com.example.forecast.data.db.ForecastDatabase
 import com.example.forecast.data.network.*
 import com.example.forecast.data.repository.ForecastRepository
@@ -22,5 +23,9 @@ class ForecastApp: Application(), KodeinAware {
         bind<ForecastRepository>() with singleton { ForecastRepositoryImpl(instance(), instance()) }
     }
 
+    override fun onCreate() {
+        super.onCreate()
+
+    }
 }
 

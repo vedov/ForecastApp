@@ -14,22 +14,25 @@ import androidx.annotation.RequiresApi
 import androidx.appcompat.app.ActionBar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.Group
+import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.forecast.R
 import com.example.forecast.data.network.ConnectivityInterceptorImpl
 import com.example.forecast.data.network.OpenWeatherApiService
 import com.example.forecast.data.network.WeatherNetworkDataSourceImpl
+import com.example.forecast.ui.base.ScopedFragment
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
+import org.kodein.di.KodeinAware
+import org.kodein.di.android.x.closestKodein
+import org.kodein.di.generic.instance
 import java.time.ZonedDateTime
 
 
-class CurrentWeatherFragment : Fragment() {
+class CurrentWeatherFragment : ScopedFragment(), KodeinAware {
 
-    companion object {
-        fun newInstance() = CurrentWeatherFragment()
-    }
+    override val kodein by closestKodein()
 
     private lateinit var viewModel: CurrentWeatherViewModel
     private lateinit var loading: Group
@@ -68,8 +71,9 @@ class CurrentWeatherFragment : Fragment() {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProviders.of(this).get(CurrentWeatherViewModel::class.java)
         // TODO: Use the ViewModel
-        val apiService = OpenWeatherApiService(ConnectivityInterceptorImpl(requireContext()))
+       val apiService = OpenWeatherApiService(ConnectivityInterceptorImpl(requireContext()))
         val weatherNetworkDataSource = WeatherNetworkDataSourceImpl(apiService)
+
 
         weatherNetworkDataSource.downloadedCurrentWeather.observe(this, {
             Log.d("AHMO",it.toString())
@@ -89,6 +93,8 @@ class CurrentWeatherFragment : Fragment() {
             setLocation("Sarajevo")
         }
     }
+
+
    /* private fun updateLocation(location: String) {
         (activity as? AppCompatActivity)?.supportActionBar?.title = location
     }*/
