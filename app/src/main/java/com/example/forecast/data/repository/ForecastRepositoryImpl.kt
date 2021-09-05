@@ -5,6 +5,8 @@ import android.util.Log
 import androidx.annotation.RequiresApi
 import androidx.lifecycle.LiveData
 import com.example.forecast.data.db.CurrentWeatherDao
+import com.example.forecast.data.db.FutureWeatherDao
+import com.example.forecast.data.db.entity.Forecast
 import com.example.forecast.data.db.unitlocalized.current.MetricCurrentWeather
 import com.example.forecast.data.network.WeatherNetworkDataSource
 import com.example.forecast.data.network.response.CurrentWeatherResponse
@@ -17,6 +19,7 @@ import java.time.ZonedDateTime
 
 class ForecastRepositoryImpl(
     private val currentWeatherDao: CurrentWeatherDao,
+    private val futureWeatherDao: FutureWeatherDao,
     private val weatherNetworkDataSource: WeatherNetworkDataSource,
     private val locationProvider: LocationProvider
     ) : ForecastRepository {
@@ -34,6 +37,13 @@ class ForecastRepositoryImpl(
                 currentWeatherDao.getWeatherMetric()
             }
         }
+    @RequiresApi(Build.VERSION_CODES.O)
+    override suspend fun getFutureWeather(): LiveData<Forecast> {
+        return withContext(Dispatchers.IO) {
+            initWeatherData()
+            futureWeatherDao.getWeatherMetric()
+        }
+    }
 
         private fun persistFetchedCurrentWeather(fetchedWeather: CurrentWeatherResponse) {
             GlobalScope.launch(Dispatchers.IO) {
@@ -53,6 +63,7 @@ class ForecastRepositoryImpl(
             )
             Log.d("AHMO",locationProvider.getLocationString())
         }
+
 
         @RequiresApi(Build.VERSION_CODES.O)
         private fun isFetchCurrentNeeded(lastFetchTime: ZonedDateTime): Boolean {
