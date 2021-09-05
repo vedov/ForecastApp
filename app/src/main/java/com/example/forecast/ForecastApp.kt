@@ -1,8 +1,11 @@
 package com.example.forecast
 
 import android.app.Application
+import androidx.preference.PreferenceManager
 import com.example.forecast.data.db.ForecastDatabase
 import com.example.forecast.data.network.*
+import com.example.forecast.data.provider.LocationProvider
+import com.example.forecast.data.provider.LocationProviderImpl
 import com.example.forecast.data.repository.ForecastRepository
 import com.example.forecast.data.repository.ForecastRepositoryImpl
 import org.kodein.di.Kodein
@@ -19,8 +22,13 @@ class ForecastApp: Application(), KodeinAware {
         bind<ConnectivityInterceptor>() with singleton { ConnectivityInterceptorImpl(instance()) }
         bind() from singleton { OpenWeatherApiService(instance()) }
         bind<WeatherNetworkDataSource>() with singleton { WeatherNetworkDataSourceImpl(instance()) }
-        bind<ForecastRepository>() with singleton { ForecastRepositoryImpl(instance(), instance()) }
+        bind<ForecastRepository>() with singleton { ForecastRepositoryImpl(instance(), instance(),instance(),instance()) }
+        bind<LocationProvider>() with singleton { LocationProviderImpl(instance()) }
     }
 
+    override fun onCreate() {
+        super.onCreate()
+        PreferenceManager.setDefaultValues(this, R.xml.preferences, false)
+    }
 }
 

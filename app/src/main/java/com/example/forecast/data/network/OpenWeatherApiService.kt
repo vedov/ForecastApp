@@ -1,6 +1,6 @@
 package com.example.forecast.data.network
-import com.example.forecast.data.network.ConnectivityInterceptor
 import com.example.forecast.data.network.response.CurrentWeatherResponse
+import com.example.forecast.data.network.response.FutureWeatherResponse
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import kotlinx.coroutines.Deferred
 import okhttp3.Interceptor
@@ -15,6 +15,8 @@ const val API_KEY = "APIKEY"
 //Current Weather
 //api.openweathermap.org/data/2.5/weather?q=Sarajevo&units=metric&appid=APIKEY
 
+//Future Weather
+//https://api.openweathermap.org/data/2.5/forecast?q=Sarajevo&appid=7cbcf30649d9c5729d393f169534c76b&units=metric
 interface OpenWeatherApiService {
     @GET("weather")
     fun getCurrentWeather(
@@ -22,6 +24,13 @@ interface OpenWeatherApiService {
     @Query("units") units: String ="metric"
 
     ) : Deferred<CurrentWeatherResponse>
+
+    @GET("forecast")
+    fun getFutureWeather(
+        @Query("q") location: String,
+        @Query("units") units: String ="metric"
+    ): Deferred<FutureWeatherResponse>
+
     companion object {
         operator fun invoke(connectivityInterceptor: ConnectivityInterceptor):OpenWeatherApiService{
             val requestInterceptor = Interceptor { chain ->

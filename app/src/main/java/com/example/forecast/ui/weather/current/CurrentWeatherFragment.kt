@@ -1,39 +1,46 @@
 package com.example.forecast.ui.weather.current
 
 import android.annotation.SuppressLint
+import android.content.Context
 import android.os.Build
 import android.os.Bundle
 import android.util.Log
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.annotation.RequiresApi
-import androidx.appcompat.app.ActionBar
-import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.Group
 import androidx.lifecycle.ViewModelProviders
 import com.example.forecast.R
 import com.example.forecast.data.network.ConnectivityInterceptorImpl
 import com.example.forecast.data.network.OpenWeatherApiService
 import com.example.forecast.data.network.WeatherNetworkDataSourceImpl
+import com.example.forecast.data.provider.CUSTOM_LOCATION
+import com.example.forecast.data.provider.LocationProvider
+import com.example.forecast.data.repository.ForecastRepository
+import com.example.forecast.ui.base.ScopedFragment
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
+import org.kodein.di.KodeinAware
+import org.kodein.di.android.x.closestKodein
 import java.time.ZonedDateTime
+import android.content.SharedPreferences
+
+import android.R.string.no
+import androidx.preference.PreferenceManager.getDefaultSharedPreferences
 
 
-class CurrentWeatherFragment : Fragment() {
+class CurrentWeatherFragment : ScopedFragment(), KodeinAware {
 
-    companion object {
-        fun newInstance() = CurrentWeatherFragment()
-    }
-
+    override val kodein by closestKodein()
+    private lateinit var locationProvider: LocationProvider
     private lateinit var viewModel: CurrentWeatherViewModel
     private lateinit var loading: Group
     private lateinit var currentLocation: String
+    private lateinit var locationPreference: String
     private lateinit var temperatureTextView: TextView
     private lateinit var feelsLikeTextView: TextView
     private lateinit var conditionTextView: TextView
@@ -68,8 +75,9 @@ class CurrentWeatherFragment : Fragment() {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProviders.of(this).get(CurrentWeatherViewModel::class.java)
         // TODO: Use the ViewModel
-        val apiService = OpenWeatherApiService(ConnectivityInterceptorImpl(requireContext()))
+       val apiService = OpenWeatherApiService(ConnectivityInterceptorImpl(requireContext()))
         val weatherNetworkDataSource = WeatherNetworkDataSourceImpl(apiService)
+
 
         weatherNetworkDataSource.downloadedCurrentWeather.observe(this, {
             Log.d("AHMO",it.toString())
@@ -83,12 +91,18 @@ class CurrentWeatherFragment : Fragment() {
             updateVisibility(it.visibility)
 
 
+
         })
         GlobalScope.launch(Dispatchers.Main) {
-            weatherNetworkDataSource.fetchCurrentWeather("Sarajevo")
-            setLocation("Sarajevo")
+            val sharedpreferences = getDefaultSharedPreferences(context?.applicationContext)
+            locationPreference = sharedpreferences.getString("CUSTOM_LOCATION",null).toString()
+            weatherNetworkDataSource.fetchCurrentWeather(locationPreference)
+            setLocation(locationPreference)
+            // TODO: POPRAVI SRANJE DA IZ SHARED PREFERENCE IDE OVDJE U LOKACIJU NEKAKO
         }
     }
+
+
    /* private fun updateLocation(location: String) {
         (activity as? AppCompatActivity)?.supportActionBar?.title = location
     }*/
