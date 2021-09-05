@@ -75,12 +75,11 @@ class CurrentWeatherFragment : ScopedFragment(), KodeinAware {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProviders.of(this).get(CurrentWeatherViewModel::class.java)
         // TODO: Use the ViewModel
-       val apiService = OpenWeatherApiService(ConnectivityInterceptorImpl(requireContext()))
+        val apiService = OpenWeatherApiService(ConnectivityInterceptorImpl(requireContext()))
         val weatherNetworkDataSource = WeatherNetworkDataSourceImpl(apiService)
 
 
         weatherNetworkDataSource.downloadedCurrentWeather.observe(this, {
-            Log.d("AHMO",it.toString())
             loading.visibility = View.GONE
             updateLocation()
             updateImage()
@@ -98,7 +97,6 @@ class CurrentWeatherFragment : ScopedFragment(), KodeinAware {
             locationPreference = sharedpreferences.getString("CUSTOM_LOCATION",null).toString()
             weatherNetworkDataSource.fetchCurrentWeather(locationPreference)
             setLocation(locationPreference)
-            // TODO: POPRAVI SRANJE DA IZ SHARED PREFERENCE IDE OVDJE U LOKACIJU NEKAKO
         }
     }
 
@@ -126,7 +124,6 @@ class CurrentWeatherFragment : ScopedFragment(), KodeinAware {
     private fun updateCondition(condition: String, conditionCode: Int) {
         val weatherCode = conditionCode/100
         conditionTextView.text = condition
-        Log.d("AHMO",weatherCode.toString())
         if(conditionCode==800) conditionImageView.visibility = View.GONE
         else {
             if(weatherCode == 2 || weatherCode == 3 || weatherCode == 5){
@@ -146,7 +143,6 @@ class CurrentWeatherFragment : ScopedFragment(), KodeinAware {
     @RequiresApi(Build.VERSION_CODES.O)
     private fun updateImage(){
         val currentTime = ZonedDateTime.now().hour
-        Log.d("time",currentTime.toString())
         if(currentTime in 5..11){
             timeOfDayImageView.setBackgroundResource(R.drawable.ic_morning)
         }

@@ -5,6 +5,7 @@ import androidx.room.*
 import com.example.forecast.data.db.entity.Day
 import com.example.forecast.data.db.entity.Forecast
 import com.example.forecast.data.db.entity.FutureWeatherList
+import com.example.forecast.data.db.unitlocalized.current.future.MetricFutureWeather
 
 
 @Dao
@@ -13,5 +14,5 @@ interface FutureWeatherDao {
     fun insert(futureWeatherEntries: Forecast)
     @RewriteQueriesToDropUnusedColumns
     @Query("select * from future_weather")
-    fun getWeatherMetric(): LiveData<Forecast>
+    fun getWeatherMetric(): LiveData<MetricFutureWeather>
 }
