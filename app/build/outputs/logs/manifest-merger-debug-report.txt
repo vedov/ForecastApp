@@ -1,0 +1,313 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:2:1-28:12
+MERGED from [androidx.databinding:viewbinding:7.0.1] C:\Users\Vedo\.gradle\caches\transforms-3\3a9e28b8579fed88458b218947275bcc\transformed\jetified-viewbinding-7.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\Vedo\.gradle\caches\transforms-3\bc9c1b8837272f96d0ea19a27e39d6ca\transformed\jetified-lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\Vedo\.gradle\caches\transforms-3\a60668a73a755386debaa33d5e5624aa\transformed\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\Vedo\.gradle\caches\transforms-3\60093f5174db963e6ac587e31e97c304\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\dfea6156d2125defd85aa4e8ba16f381\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\Vedo\.gradle\caches\transforms-3\62b46b126e7f5ece77317d4e76d43f9d\transformed\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference-ktx:1.1.1] C:\Users\Vedo\.gradle\caches\transforms-3\da41b2ea2b2d1b51ae3ab0dfb82e1f82\transformed\jetified-preference-ktx-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\Vedo\.gradle\caches\transforms-3\3d6c5428bd1f1edde0e537a2dc78e67f\transformed\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\18ec7d566fd0a4ab9145f7a165406db9\transformed\jetified-activity-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\Vedo\.gradle\caches\transforms-3\fbdbb0206f44c101c189f042547d02b6\transformed\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\Vedo\.gradle\caches\transforms-3\dc1f6b9f968766445dd4dd2ae5641e03\transformed\navigation-common-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\Vedo\.gradle\caches\transforms-3\8b73ec4524f07ea835d33b31108ec045\transformed\jetified-core-ktx-1.3.2\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Vedo\.gradle\caches\transforms-3\fd58cb55c3f1df10e1dfe8636ae791ff\transformed\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Vedo\.gradle\caches\transforms-3\ca3e925210516d2ef40be6f0abe46c88\transformed\material-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Vedo\.gradle\caches\transforms-3\e6c6ffeaa3e704f818321cd13853bfed\transformed\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [org.kodein.di:kodein-di-framework-android-x:5.2.0] C:\Users\Vedo\.gradle\caches\transforms-3\71de316e82c34151356843dbdbe9bc5c\transformed\jetified-kodein-di-framework-android-x-5.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\Vedo\.gradle\caches\transforms-3\1caa306411dded7d4866b263b5e76edc\transformed\preference-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Vedo\.gradle\caches\transforms-3\f0833ec5c3b1016410edb8d71b6222c3\transformed\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\Vedo\.gradle\caches\transforms-3\854014f5dceb530763d3190216d05d5b\transformed\room-runtime-2.3.0\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\6d9882407831056c2c917f534720ae18\transformed\lifecycle-extensions-2.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Vedo\.gradle\caches\transforms-3\4de2bbf0c9a18417dd436527848bd3b2\transformed\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\6c6006a178cfcb0bce4e2d119b523803\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\c3ba7708af59c2361fb1292ecf7069cd\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\f1debbb20f02eba450b833786aa25375\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\a03a387f3eda75f246ec4e928fa7650d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\Vedo\.gradle\caches\transforms-3\739b3dbfd5082a04b29d7cdc274e8a35\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\f13559752ec85e44e84e0132d144acc0\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Vedo\.gradle\caches\transforms-3\aaa175e68165f894fa9b54be2b924324\transformed\fragment-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\Vedo\.gradle\caches\transforms-3\521e125f44a3c1fbcad98b787cb70f39\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\2be22fc3b0f83b0bc04de380be01a61b\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\d9a26b05442cedf5559014645c2c84f0\transformed\jetified-activity-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Vedo\.gradle\caches\transforms-3\86c28f617ffb89903e3ca45971ed856b\transformed\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Vedo\.gradle\caches\transforms-3\029a7bbaecf11d100a5a21dec7d7b6e0\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Vedo\.gradle\caches\transforms-3\fdbd7c1b03b27325eb97fc0ef3e98080\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\0c8554314a6d5edecea5930705cc4a9d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\a24af3e8f2818beb6c235f52cd48dfa4\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\d759f6187c183e4288c70b1e98452fbe\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Vedo\.gradle\caches\transforms-3\72fc3ed77c383ed3212c3d8680ce3a54\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Vedo\.gradle\caches\transforms-3\05890357b7e77d365e2a7d5c93c3236d\transformed\transition-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\d505c71f37932fbab3d96adf663834fd\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\ef1ef33e5699d7e3eda098d54c349933\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\7b2dceaa8522edc437afac3695aea5af\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\1eca88f39f4205972edf992bc6a91cee\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\dedf072a1b15dcfe55a742cb8fbfda72\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\5689c8dd42a311ad10e4c7688847d789\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\Vedo\.gradle\caches\transforms-3\2576a4b644253607b8f65bd5ab85d8cb\transformed\navigation-common-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.2] C:\Users\Vedo\.gradle\caches\transforms-3\dee0905a41a0eeb826d91558a3f022e6\transformed\core-1.3.2\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\4fb41dba4110dcf40c155c407ca602fc\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\bbf74e701d1eee0f3bd1a615588f347d\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\e608fca7bc3f56d0aae9fda13ebd4d4e\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\e3468679df7d20249bf044303e0ff885\transformed\sqlite-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\Vedo\.gradle\caches\transforms-3\8fb22c2de4b0a94801e257b6d4a57277\transformed\lifecycle-livedata-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\Vedo\.gradle\caches\transforms-3\ffb8304648b03b062bea008c400abed2\transformed\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Vedo\.gradle\caches\transforms-3\8824215069484f226c08f285407c94b9\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\7ae238be15c761a5db91688d1de61eb2\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\d6737477bc0688b2fa014a039d09608c\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\ddca573a72328699122ac170f223dba0\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\8f8c11aa6f7fce5eeab2597a267541eb\transformed\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Vedo\.gradle\caches\transforms-3\5997fc4b8746d56f9b386844ad8ca57e\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\69c62d139000e92b1595211aaf920ca7\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\2b7f9f363702a9f022590f9eba057fce\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\823fb83797dc538303365ba3d608fbbb\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\7cdf8b7e9eee7f8499591404f08a674c\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\e86b2addca54dec2085a391681853728\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [org.kodein.di:kodein-di-framework-android-core:5.2.0] C:\Users\Vedo\.gradle\caches\transforms-3\9f6e4bcf01d156871c03aa8a38f44455\transformed\jetified-kodein-di-framework-android-core-5.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\78d65500f27f25381d1c823a7f080fad\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:4:5-35
+		INJECTED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml
+		ADDED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml
+		ADDED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.INTERNET
+ADDED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:7:22-64
+application
+ADDED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:8:5-26:19
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Vedo\.gradle\caches\transforms-3\ca3e925210516d2ef40be6f0abe46c88\transformed\material-1.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Vedo\.gradle\caches\transforms-3\ca3e925210516d2ef40be6f0abe46c88\transformed\material-1.3.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Vedo\.gradle\caches\transforms-3\e6c6ffeaa3e704f818321cd13853bfed\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Vedo\.gradle\caches\transforms-3\e6c6ffeaa3e704f818321cd13853bfed\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\Vedo\.gradle\caches\transforms-3\854014f5dceb530763d3190216d05d5b\transformed\room-runtime-2.3.0\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\Vedo\.gradle\caches\transforms-3\854014f5dceb530763d3190216d05d5b\transformed\room-runtime-2.3.0\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\6d9882407831056c2c917f534720ae18\transformed\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\6d9882407831056c2c917f534720ae18\transformed\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.core:core:1.3.2] C:\Users\Vedo\.gradle\caches\transforms-3\dee0905a41a0eeb826d91558a3f022e6\transformed\core-1.3.2\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] C:\Users\Vedo\.gradle\caches\transforms-3\dee0905a41a0eeb826d91558a3f022e6\transformed\core-1.3.2\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\ddca573a72328699122ac170f223dba0\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\ddca573a72328699122ac170f223dba0\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\e86b2addca54dec2085a391681853728\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\e86b2addca54dec2085a391681853728\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] C:\Users\Vedo\.gradle\caches\transforms-3\dee0905a41a0eeb826d91558a3f022e6\transformed\core-1.3.2\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:14:9-46
+activity#com.example.forecast.ui.MainActivity
+ADDED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:15:9-25:20
+	android:label
+		ADDED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:18:13-56
+	android:exported
+		ADDED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:17:13-36
+	tools:ignore
+		ADDED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:19:13-42
+	android:name
+		ADDED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:16:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml:23:27-74
+uses-sdk
+INJECTED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml
+INJECTED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.0.1] C:\Users\Vedo\.gradle\caches\transforms-3\3a9e28b8579fed88458b218947275bcc\transformed\jetified-viewbinding-7.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.0.1] C:\Users\Vedo\.gradle\caches\transforms-3\3a9e28b8579fed88458b218947275bcc\transformed\jetified-viewbinding-7.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\Vedo\.gradle\caches\transforms-3\bc9c1b8837272f96d0ea19a27e39d6ca\transformed\jetified-lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\Vedo\.gradle\caches\transforms-3\bc9c1b8837272f96d0ea19a27e39d6ca\transformed\jetified-lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\Vedo\.gradle\caches\transforms-3\a60668a73a755386debaa33d5e5624aa\transformed\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\Vedo\.gradle\caches\transforms-3\a60668a73a755386debaa33d5e5624aa\transformed\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\Vedo\.gradle\caches\transforms-3\60093f5174db963e6ac587e31e97c304\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\Vedo\.gradle\caches\transforms-3\60093f5174db963e6ac587e31e97c304\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\dfea6156d2125defd85aa4e8ba16f381\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\dfea6156d2125defd85aa4e8ba16f381\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\Vedo\.gradle\caches\transforms-3\62b46b126e7f5ece77317d4e76d43f9d\transformed\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\Vedo\.gradle\caches\transforms-3\62b46b126e7f5ece77317d4e76d43f9d\transformed\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.1.1] C:\Users\Vedo\.gradle\caches\transforms-3\da41b2ea2b2d1b51ae3ab0dfb82e1f82\transformed\jetified-preference-ktx-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.1.1] C:\Users\Vedo\.gradle\caches\transforms-3\da41b2ea2b2d1b51ae3ab0dfb82e1f82\transformed\jetified-preference-ktx-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\Vedo\.gradle\caches\transforms-3\3d6c5428bd1f1edde0e537a2dc78e67f\transformed\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\Vedo\.gradle\caches\transforms-3\3d6c5428bd1f1edde0e537a2dc78e67f\transformed\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\18ec7d566fd0a4ab9145f7a165406db9\transformed\jetified-activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\18ec7d566fd0a4ab9145f7a165406db9\transformed\jetified-activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\Vedo\.gradle\caches\transforms-3\fbdbb0206f44c101c189f042547d02b6\transformed\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\Vedo\.gradle\caches\transforms-3\fbdbb0206f44c101c189f042547d02b6\transformed\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\Vedo\.gradle\caches\transforms-3\dc1f6b9f968766445dd4dd2ae5641e03\transformed\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\Vedo\.gradle\caches\transforms-3\dc1f6b9f968766445dd4dd2ae5641e03\transformed\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\Vedo\.gradle\caches\transforms-3\8b73ec4524f07ea835d33b31108ec045\transformed\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\Vedo\.gradle\caches\transforms-3\8b73ec4524f07ea835d33b31108ec045\transformed\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Vedo\.gradle\caches\transforms-3\fd58cb55c3f1df10e1dfe8636ae791ff\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Vedo\.gradle\caches\transforms-3\fd58cb55c3f1df10e1dfe8636ae791ff\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Vedo\.gradle\caches\transforms-3\ca3e925210516d2ef40be6f0abe46c88\transformed\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Vedo\.gradle\caches\transforms-3\ca3e925210516d2ef40be6f0abe46c88\transformed\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Vedo\.gradle\caches\transforms-3\e6c6ffeaa3e704f818321cd13853bfed\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Vedo\.gradle\caches\transforms-3\e6c6ffeaa3e704f818321cd13853bfed\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [org.kodein.di:kodein-di-framework-android-x:5.2.0] C:\Users\Vedo\.gradle\caches\transforms-3\71de316e82c34151356843dbdbe9bc5c\transformed\jetified-kodein-di-framework-android-x-5.2.0\AndroidManifest.xml:5:5-44
+MERGED from [org.kodein.di:kodein-di-framework-android-x:5.2.0] C:\Users\Vedo\.gradle\caches\transforms-3\71de316e82c34151356843dbdbe9bc5c\transformed\jetified-kodein-di-framework-android-x-5.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\Vedo\.gradle\caches\transforms-3\1caa306411dded7d4866b263b5e76edc\transformed\preference-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\Vedo\.gradle\caches\transforms-3\1caa306411dded7d4866b263b5e76edc\transformed\preference-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Vedo\.gradle\caches\transforms-3\f0833ec5c3b1016410edb8d71b6222c3\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Vedo\.gradle\caches\transforms-3\f0833ec5c3b1016410edb8d71b6222c3\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\Vedo\.gradle\caches\transforms-3\854014f5dceb530763d3190216d05d5b\transformed\room-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\Vedo\.gradle\caches\transforms-3\854014f5dceb530763d3190216d05d5b\transformed\room-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\6d9882407831056c2c917f534720ae18\transformed\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\6d9882407831056c2c917f534720ae18\transformed\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Vedo\.gradle\caches\transforms-3\4de2bbf0c9a18417dd436527848bd3b2\transformed\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Vedo\.gradle\caches\transforms-3\4de2bbf0c9a18417dd436527848bd3b2\transformed\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\6c6006a178cfcb0bce4e2d119b523803\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\6c6006a178cfcb0bce4e2d119b523803\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\c3ba7708af59c2361fb1292ecf7069cd\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\c3ba7708af59c2361fb1292ecf7069cd\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\f1debbb20f02eba450b833786aa25375\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\f1debbb20f02eba450b833786aa25375\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\a03a387f3eda75f246ec4e928fa7650d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\a03a387f3eda75f246ec4e928fa7650d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\Vedo\.gradle\caches\transforms-3\739b3dbfd5082a04b29d7cdc274e8a35\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\Vedo\.gradle\caches\transforms-3\739b3dbfd5082a04b29d7cdc274e8a35\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\f13559752ec85e44e84e0132d144acc0\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\f13559752ec85e44e84e0132d144acc0\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Vedo\.gradle\caches\transforms-3\aaa175e68165f894fa9b54be2b924324\transformed\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Vedo\.gradle\caches\transforms-3\aaa175e68165f894fa9b54be2b924324\transformed\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\Vedo\.gradle\caches\transforms-3\521e125f44a3c1fbcad98b787cb70f39\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\Vedo\.gradle\caches\transforms-3\521e125f44a3c1fbcad98b787cb70f39\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\2be22fc3b0f83b0bc04de380be01a61b\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\2be22fc3b0f83b0bc04de380be01a61b\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\d9a26b05442cedf5559014645c2c84f0\transformed\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\d9a26b05442cedf5559014645c2c84f0\transformed\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Vedo\.gradle\caches\transforms-3\86c28f617ffb89903e3ca45971ed856b\transformed\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Vedo\.gradle\caches\transforms-3\86c28f617ffb89903e3ca45971ed856b\transformed\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Vedo\.gradle\caches\transforms-3\029a7bbaecf11d100a5a21dec7d7b6e0\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Vedo\.gradle\caches\transforms-3\029a7bbaecf11d100a5a21dec7d7b6e0\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Vedo\.gradle\caches\transforms-3\fdbd7c1b03b27325eb97fc0ef3e98080\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Vedo\.gradle\caches\transforms-3\fdbd7c1b03b27325eb97fc0ef3e98080\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\0c8554314a6d5edecea5930705cc4a9d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\0c8554314a6d5edecea5930705cc4a9d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\a24af3e8f2818beb6c235f52cd48dfa4\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\a24af3e8f2818beb6c235f52cd48dfa4\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\d759f6187c183e4288c70b1e98452fbe\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\d759f6187c183e4288c70b1e98452fbe\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Vedo\.gradle\caches\transforms-3\72fc3ed77c383ed3212c3d8680ce3a54\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Vedo\.gradle\caches\transforms-3\72fc3ed77c383ed3212c3d8680ce3a54\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Vedo\.gradle\caches\transforms-3\05890357b7e77d365e2a7d5c93c3236d\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Vedo\.gradle\caches\transforms-3\05890357b7e77d365e2a7d5c93c3236d\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\d505c71f37932fbab3d96adf663834fd\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\d505c71f37932fbab3d96adf663834fd\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\ef1ef33e5699d7e3eda098d54c349933\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\ef1ef33e5699d7e3eda098d54c349933\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\7b2dceaa8522edc437afac3695aea5af\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\7b2dceaa8522edc437afac3695aea5af\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\1eca88f39f4205972edf992bc6a91cee\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\1eca88f39f4205972edf992bc6a91cee\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\dedf072a1b15dcfe55a742cb8fbfda72\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\dedf072a1b15dcfe55a742cb8fbfda72\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\5689c8dd42a311ad10e4c7688847d789\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\5689c8dd42a311ad10e4c7688847d789\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\Vedo\.gradle\caches\transforms-3\2576a4b644253607b8f65bd5ab85d8cb\transformed\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\Vedo\.gradle\caches\transforms-3\2576a4b644253607b8f65bd5ab85d8cb\transformed\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] C:\Users\Vedo\.gradle\caches\transforms-3\dee0905a41a0eeb826d91558a3f022e6\transformed\core-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] C:\Users\Vedo\.gradle\caches\transforms-3\dee0905a41a0eeb826d91558a3f022e6\transformed\core-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\4fb41dba4110dcf40c155c407ca602fc\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\4fb41dba4110dcf40c155c407ca602fc\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\bbf74e701d1eee0f3bd1a615588f347d\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\bbf74e701d1eee0f3bd1a615588f347d\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\e608fca7bc3f56d0aae9fda13ebd4d4e\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\e608fca7bc3f56d0aae9fda13ebd4d4e\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\e3468679df7d20249bf044303e0ff885\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\e3468679df7d20249bf044303e0ff885\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\Vedo\.gradle\caches\transforms-3\8fb22c2de4b0a94801e257b6d4a57277\transformed\lifecycle-livedata-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\Vedo\.gradle\caches\transforms-3\8fb22c2de4b0a94801e257b6d4a57277\transformed\lifecycle-livedata-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\Vedo\.gradle\caches\transforms-3\ffb8304648b03b062bea008c400abed2\transformed\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\Vedo\.gradle\caches\transforms-3\ffb8304648b03b062bea008c400abed2\transformed\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Vedo\.gradle\caches\transforms-3\8824215069484f226c08f285407c94b9\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Vedo\.gradle\caches\transforms-3\8824215069484f226c08f285407c94b9\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\7ae238be15c761a5db91688d1de61eb2\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\7ae238be15c761a5db91688d1de61eb2\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\d6737477bc0688b2fa014a039d09608c\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\d6737477bc0688b2fa014a039d09608c\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\ddca573a72328699122ac170f223dba0\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\ddca573a72328699122ac170f223dba0\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\8f8c11aa6f7fce5eeab2597a267541eb\transformed\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\8f8c11aa6f7fce5eeab2597a267541eb\transformed\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Vedo\.gradle\caches\transforms-3\5997fc4b8746d56f9b386844ad8ca57e\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Vedo\.gradle\caches\transforms-3\5997fc4b8746d56f9b386844ad8ca57e\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\69c62d139000e92b1595211aaf920ca7\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\69c62d139000e92b1595211aaf920ca7\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\2b7f9f363702a9f022590f9eba057fce\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\2b7f9f363702a9f022590f9eba057fce\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\823fb83797dc538303365ba3d608fbbb\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\823fb83797dc538303365ba3d608fbbb\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\7cdf8b7e9eee7f8499591404f08a674c\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\7cdf8b7e9eee7f8499591404f08a674c\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\e86b2addca54dec2085a391681853728\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\e86b2addca54dec2085a391681853728\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [org.kodein.di:kodein-di-framework-android-core:5.2.0] C:\Users\Vedo\.gradle\caches\transforms-3\9f6e4bcf01d156871c03aa8a38f44455\transformed\jetified-kodein-di-framework-android-core-5.2.0\AndroidManifest.xml:5:5-44
+MERGED from [org.kodein.di:kodein-di-framework-android-core:5.2.0] C:\Users\Vedo\.gradle\caches\transforms-3\9f6e4bcf01d156871c03aa8a38f44455\transformed\jetified-kodein-di-framework-android-core-5.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\78d65500f27f25381d1c823a7f080fad\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Vedo\.gradle\caches\transforms-3\78d65500f27f25381d1c823a7f080fad\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml
+INJECTED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml
+		ADDED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml
+		ADDED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Fax\Forecast\app\src\main\AndroidManifest.xml
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.3.0] C:\Users\Vedo\.gradle\caches\transforms-3\854014f5dceb530763d3190216d05d5b\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.3.0] C:\Users\Vedo\.gradle\caches\transforms-3\854014f5dceb530763d3190216d05d5b\transformed\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.3.0] C:\Users\Vedo\.gradle\caches\transforms-3\854014f5dceb530763d3190216d05d5b\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.3.0] C:\Users\Vedo\.gradle\caches\transforms-3\854014f5dceb530763d3190216d05d5b\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\ddca573a72328699122ac170f223dba0\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\ddca573a72328699122ac170f223dba0\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\ddca573a72328699122ac170f223dba0\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\ddca573a72328699122ac170f223dba0\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Vedo\.gradle\caches\transforms-3\ddca573a72328699122ac170f223dba0\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79

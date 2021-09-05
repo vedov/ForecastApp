@@ -1,0 +1,23 @@
+com/example/forecast/databinding/FutureDetailWeatherFragmentBinding.java
+ com.example.forecast.databinding.FutureDetailWeatherFragmentBinding
+com/example/forecast/databinding/FutureListWeatherFragmentBinding.java
+ com.example.forecast.databinding.FutureListWeatherFragmentBinding
+com/example/forecast/data/db/CurrentWeatherDao_Impl.java
+ com.example.forecast.data.db.CurrentWeatherDao_Impl
+ com.example.forecast.data.db.CurrentWeatherDao_Impl$1
+ com.example.forecast.data.db.CurrentWeatherDao_Impl$2
+com/example/forecast/databinding/ActivityMainBinding.java
+ com.example.forecast.databinding.ActivityMainBinding
+com/example/forecast/BuildConfig.java
+ com.example.forecast.BuildConfig
+com/example/forecast/databinding/SettingsFragmentBinding.java
+ com.example.forecast.databinding.SettingsFragmentBinding
+com/example/forecast/databinding/CurrentWeatherFragmentBinding.java
+ com.example.forecast.databinding.CurrentWeatherFragmentBinding
+com/example/forecast/data/db/ForecastDatabase_Impl.java
+ com.example.forecast.data.db.ForecastDatabase_Impl
+ com.example.forecast.data.db.ForecastDatabase_Impl$1
+com/example/forecast/data/db/FutureWeatherDao_Impl.java
+ com.example.forecast.data.db.FutureWeatherDao_Impl
+ com.example.forecast.data.db.FutureWeatherDao_Impl$1
+ com.example.forecast.data.db.FutureWeatherDao_Impl$2
