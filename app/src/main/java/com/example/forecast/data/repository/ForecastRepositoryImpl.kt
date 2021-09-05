@@ -8,6 +8,7 @@ import com.example.forecast.data.db.CurrentWeatherDao
 import com.example.forecast.data.db.FutureWeatherDao
 import com.example.forecast.data.db.entity.Forecast
 import com.example.forecast.data.db.unitlocalized.current.MetricCurrentWeather
+import com.example.forecast.data.db.unitlocalized.current.future.MetricFutureWeather
 import com.example.forecast.data.network.WeatherNetworkDataSource
 import com.example.forecast.data.network.response.CurrentWeatherResponse
 import com.example.forecast.data.provider.LocationProvider
@@ -38,7 +39,7 @@ class ForecastRepositoryImpl(
             }
         }
     @RequiresApi(Build.VERSION_CODES.O)
-    override suspend fun getFutureWeather(): LiveData<Forecast> {
+    override suspend fun getFutureWeather(): LiveData<MetricFutureWeather> {
         return withContext(Dispatchers.IO) {
             initWeatherData()
             futureWeatherDao.getWeatherMetric()

@@ -1,31 +1,16 @@
 package com.example.forecast.data.db.entity
 
+import androidx.room.Embedded
+import androidx.room.Entity
 import com.google.gson.annotations.SerializedName
-
 data class FutureWeatherList(
     @SerializedName("dt")
     val dt: Long,
+    @Embedded(prefix = "list_")
+    @SerializedName("main")
+    val main: Main,
 
-    @SerializedName("temp")
-    val temp: Temp,
+    @SerializedName("dt_txt")
+    val dt_txt: String,
 
-    @SerializedName("pressure")
-    val pressure: Double,
-
-    @SerializedName("humidity")
-    val humidity: Double,
-
-    @SerializedName("weather")
-    val weather: List<Weather>,
-    @SerializedName("speed")
-    val speed: Double,
-
-    @SerializedName("deg")
-    val deg: Double,
-
-    @SerializedName("clouds")
-    val clouds: Double,
-
-    @SerializedName("rain")
-    val rain: Double
 )

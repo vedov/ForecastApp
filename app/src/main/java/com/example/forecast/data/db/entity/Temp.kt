@@ -15,4 +15,6 @@ data class Temp(
     val eve: Double,
     @SerializedName("morn")
     val morn: Double
-)
+){
+    constructor(): this(0.0,0.0,0.0,0.0,0.0,0.0)
+}
